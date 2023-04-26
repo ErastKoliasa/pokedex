@@ -1,0 +1,117 @@
+.listCards {
+    margin: 0px 20px;
+    text-transform: capitalize;
+}
+
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #ffcc00;
+    margin-bottom: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+:hover.card {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 30%);
+}
+
+.listImage {
+    width: 70px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.typesContainer {
+    display: flex;
+}
+
+.type {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.grass {
+    background-color:  #00cc66;
+    border: 1px solid #004d26;
+}
+
+.poison {
+    background-color:  #b380ff;
+    border: 1px solid #751aff;
+}
+
+.fire {
+    background-color:  #ff6666;
+    border: 1px solid #800000;
+}
+
+.electric {
+    background-color:  #ffff80;
+    border: 1px solid #ffcc00;
+}
+
+.water {
+    background-color:  #66a3ff;
+    border: 1px solid #005ce6;
+}
+
+.flying {
+    background-color:  #ccffff;
+    border: 1px solid #00ffff;
+}
+
+.bug {
+    background-color:  #ff99dd;
+    border: 1px solid #b30077;
+}
+
+.ground {
+    background-color:   #bf8040;
+    border: 1px solid #604020;
+}
+
+.fairy {
+    background-color:   #ffcc99;
+    border: 1px solid #ff8000
+}
+.ground {
+    background-color:   #bf8040;
+    border: 1px solid #604020;
+}
+
+.default {
+    background-color: #cccccc
+}
+
+@media(min-width: 768px) {
+    .listCards {
+        margin: 0px 70px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    .listImage {
+        width: 100px;
+    }
+}
+
+@media(min-width: 990px) {
+    .listCards {
+        margin: 0px 150px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1250px) {
+    .listCards {
+        margin: 0px 150px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

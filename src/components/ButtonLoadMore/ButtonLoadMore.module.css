@@ -1,0 +1,38 @@
+.buttonContainer {
+    margin: 20px 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0066ff;
+    color: #fff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #0066ff;
+    border: 1px solid #0066ff
+}
+
+@media(min-width: 768px) {
+    .buttonContainer {
+        margin: 20px 70px
+    }
+}
+
+@media(min-width: 990px) {
+    .buttonContainer {
+        margin: 20px 150px
+    }
+}
+
+@media(min-width: 1250px) {
+    .buttonContainer {
+        margin: 20px 150px
+    }
+}
